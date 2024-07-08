@@ -66,7 +66,7 @@
             // 
             button2.BackColor = Color.IndianRed;
             button2.ForeColor = Color.White;
-            button2.Location = new Point(316, 337);
+            button2.Location = new Point(328, 337);
             button2.Name = "button2";
             button2.Size = new Size(128, 34);
             button2.TabIndex = 3;
@@ -79,17 +79,19 @@
             // 
             progressBar1.Location = new Point(90, 292);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(621, 23);
+            progressBar1.Size = new Size(621, 39);
+            progressBar1.Style = ProgressBarStyle.Continuous;
             progressBar1.TabIndex = 2;
+            progressBar1.Visible = false;
             // 
             // button1
             // 
             button1.BackColor = Color.YellowGreen;
             button1.Font = new Font("Verdana", 19F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.Control;
-            button1.Location = new Point(262, 172);
+            button1.Location = new Point(207, 186);
             button1.Name = "button1";
-            button1.Size = new Size(252, 83);
+            button1.Size = new Size(397, 83);
             button1.TabIndex = 1;
             button1.Text = "CÀI ĐẶT CHƯƠNG TRÌNH";
             button1.UseVisualStyleBackColor = false;
@@ -98,7 +100,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(216, 32);
+            pictureBox1.Location = new Point(235, 46);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(332, 134);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;

@@ -23,6 +23,8 @@ namespace SettupSCE
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Start();
+            progressBar1.Visible = true;
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
