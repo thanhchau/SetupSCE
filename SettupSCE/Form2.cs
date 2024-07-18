@@ -44,11 +44,11 @@ namespace SettupSCE
                 string zipPath2 = @"cs.zip";
                 string extractPath2 = @"c:\cs\456";
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPath, extractPath);
-                CreateShortcut("Check Machine Status", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cml\cml\CheckMachineLine.exe", "logo1.ico");
+                //CreateShortcut("Check Machine Status", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cml\cml\CheckMachineLine.exe", "logo1.ico");
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPath1, extractPath1);
-                CreateShortcut("SE Monitor 1", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cs\123\cs\SEMonitor.exe", "logo2.ico");
+                //CreateShortcut("SE Monitor 1", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cs\123\cs\SEMonitor.exe", "logo2.ico");
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPath2, extractPath2);
-                CreateShortcut("SE Monitor 2", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cs\456\cs\SEMonitor.exe", "logo2.ico");
+                //CreateShortcut("SE Monitor 2", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), @"c:\cs\456\cs\SEMonitor.exe", "logo2.ico");
             }
             catch (Exception ex)
             {
